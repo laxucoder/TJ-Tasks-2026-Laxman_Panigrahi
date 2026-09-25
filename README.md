@@ -253,7 +253,7 @@ Suggested captures:
 Not deployed yet.
 
 ```text
-Live demo: Add deployment URL here after deploying frontend and backend.
+https://tj-tasks-2026-laxman-panigrahi.vercel.app
 ```
 
 ## 🐙 GitHub Repository
