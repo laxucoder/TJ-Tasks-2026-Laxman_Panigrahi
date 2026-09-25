@@ -217,49 +217,6 @@ VITE_API_URL=http://localhost:5000/api
 
 Never commit a real `.env` file, database password, API key, or secret.
 
-## 📡 API Documentation
-
-Base URL: `http://localhost:5000/api`
-
-| Method | Endpoint | Purpose |
-|---|---|---|
-| GET | `/tasks` | Get all tasks |
-| POST | `/tasks` | Create a task |
-| GET | `/tasks/:id` | Get one task |
-| PUT | `/tasks/:id` | Update a task |
-| DELETE | `/tasks/:id` | Delete a task |
-| GET | `/health` | API health check |
-
-### Create Task Example
-
-```json
-POST /api/tasks
-Content-Type: application/json
-
-{
-  "title": "Build portfolio dashboard",
-  "description": "Create a responsive dashboard for the portfolio project.",
-  "status": "Todo",
-  "priority": "High",
-  "dueDate": "2026-10-01"
-}
-```
-
-### Response Shape
-
-```json
-{
-  "success": true,
-  "data": {
-    "_id": "...",
-    "title": "Build portfolio dashboard",
-    "description": "...",
-    "status": "Todo",
-    "priority": "High",
-    "dueDate": "2026-10-01T00:00:00.000Z"
-  }
-}
-```
 
 ## 🧪 Testing Checklist
 
@@ -283,16 +240,6 @@ Content-Type: application/json
 
 > Final integration testing requires a running MongoDB instance because this source package does not contain credentials or a database dump.
 
-## 📸 Screenshots
-
-The `screenshots/` directory is reserved for captured desktop, mobile, and dark-mode screenshots after running the app locally. No fake screenshots are included.
-
-Suggested captures:
-
-- `dashboard-light.png`
-- `dashboard-dark.png`
-- `mobile-dashboard.png`
-- `create-task.png`
 
 ## 🌐 Live Demo
 
