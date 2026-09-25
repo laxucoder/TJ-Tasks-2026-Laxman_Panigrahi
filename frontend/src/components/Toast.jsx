@@ -1,0 +1,2 @@
+import { CheckCircle2, XCircle } from 'lucide-react';
+export default function Toast({ toast }) { if (!toast) return null; const ok = toast.type === 'success'; return <div className="fixed right-4 top-4 z-[70] flex max-w-sm items-center gap-3 rounded-2xl border border-slate-200 bg-white px-4 py-3 shadow-xl dark:border-slate-700 dark:bg-slate-900"><span className={ok ? 'text-emerald-500' : 'text-rose-500'}>{ok ? <CheckCircle2/> : <XCircle/>}</span><span className="text-sm font-medium text-slate-700 dark:text-slate-200">{toast.message}</span></div>; }
