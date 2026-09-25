@@ -218,29 +218,6 @@ VITE_API_URL=http://localhost:5000/api
 Never commit a real `.env` file, database password, API key, or secret.
 
 
-## 🧪 Testing Checklist
-
-- [x] Create task UI and API flow
-- [x] Read/view tasks
-- [x] Edit task
-- [x] Delete task with confirmation
-- [x] Mark task completed
-- [x] Search
-- [x] Status filtering
-- [x] Priority filtering
-- [x] Sorting
-- [x] Dynamic dashboard statistics
-- [x] Dark mode
-- [x] Responsive mobile layout
-- [x] Loading state
-- [x] Error state
-- [x] Empty state
-- [x] Database persistence through API
-- [x] REST endpoint validation
-
-> Final integration testing requires a running MongoDB instance because this source package does not contain credentials or a database dump.
-
-
 ## 🌐 Live Demo
 
 Not deployed yet.
