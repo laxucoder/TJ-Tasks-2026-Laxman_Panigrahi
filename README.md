@@ -47,14 +47,6 @@ TaskFlow combines a clean dashboard, dynamic statistics, task cards, responsive 
 
 </p>
 
-### 📱 Mobile Responsive
-
-<p align="center">
-
-[![TaskFlow Mobile Responsive](screenshots/3.png)](https://tj-tasks-2026-laxman-panigrahi.vercel.app)
-
-</p>
-
 ---
 
 ## 🚀 Features
