@@ -4,11 +4,60 @@ A polished SaaS-style task management application built for the **TechnoJam Web 
 
 > **Repository:** `TJ-Tasks-2026-Laxman_Panigrahi`
 
+<p align="center">
+  <a href="https://tj-tasks-2026-laxman-panigrahi.vercel.app">
+    <img src="https://img.shields.io/badge/LIVE%20DEMO-VERCEL-black?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo">
+  </a>
+  <a href="https://github.com/laxucoder/TJ-Tasks-2026-Laxman_Panigrahi">
+    <img src="https://img.shields.io/badge/GITHUB-REPOSITORY-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Repository">
+  </a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React">
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
+  <img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB">
+  <img src="https://img.shields.io/badge/Mongoose-880000?style=flat-square&logo=mongoose&logoColor=white" alt="Mongoose">
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel">
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat-square&logo=render&logoColor=black" alt="Render">
+</p>
+
+---
+
 ## ✨ Project Preview
 
 TaskFlow combines a clean dashboard, dynamic statistics, task cards, responsive navigation, dark mode, and a REST API backed by MongoDB.
 
-### Features
+### 📊 Dashboard
+
+<p align="center">
+
+[![TaskFlow Dashboard](screenshots/1.png)](https://tj-tasks-2026-laxman-panigrahi.vercel.app)
+
+</p>
+
+### ➕ Create Task
+
+<p align="center">
+
+[![TaskFlow Create Task](screenshots/2.png)](https://tj-tasks-2026-laxman-panigrahi.vercel.app)
+
+</p>
+
+### 📱 Mobile Responsive
+
+<p align="center">
+
+[![TaskFlow Mobile Responsive](screenshots/3.png)](https://tj-tasks-2026-laxman-panigrahi.vercel.app)
+
+</p>
+
+---
+
+## 🚀 Features
 
 - 📊 Dynamic dashboard statistics
 - ➕ Create tasks with validation
@@ -26,6 +75,8 @@ TaskFlow combines a clean dashboard, dynamic statistics, task cards, responsive 
 - 🔌 REST API with Express + MongoDB
 - 🛡️ Environment-based configuration and CORS
 
+---
+
 ## 🧰 Tech Stack
 
 | Layer | Technology |
@@ -34,7 +85,10 @@ TaskFlow combines a clean dashboard, dynamic statistics, task cards, responsive 
 | Backend | Node.js, Express.js |
 | Database | MongoDB, Mongoose |
 | API | REST |
+| Deployment | Vercel, Render |
 | Tooling | Git, GitHub, npm |
+
+---
 
 ## 🏗️ Architecture
 
@@ -43,7 +97,8 @@ Browser
   │
   ▼
 React + Vite + Tailwind
-  │  API service (fetch)
+  │
+  │ API service (fetch)
   ▼
 Express REST API
   │
@@ -55,7 +110,6 @@ Mongoose
   │
   ▼
 MongoDB
-```
 
 ## 📁 Project Structure
 
