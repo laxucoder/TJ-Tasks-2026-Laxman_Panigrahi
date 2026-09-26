@@ -387,7 +387,7 @@ Premium stories can be unlocked using the platform's coin system.
 Users can purchase different coin packages and use their balance to access premium audiobook content.
 
 <p align="center">
-  <img src="docs/screenshots/premium.png" alt="Suno Audiobook Premium Content" width="80%">
+  <img src="screenshots/premium.png" alt="Suno Audiobook Premium Content" width="80%">
 </p>
 
 ---
