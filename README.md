@@ -220,7 +220,7 @@ Never commit a real `.env` file, database password, API key, or secret.
 
 ## 🌐 Live Demo
 
-Not deployed yet.
+Deployed
 
 ```text
 https://tj-tasks-2026-laxman-panigrahi.vercel.app
